@@ -1,0 +1,35 @@
+﻿Build started 11-09-2014 18:20:07.
+     1>Project "C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\OpenGLGraphicsPad\OpenGLGraphicsPad.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\freeglut-2.8.1\include" /I"C:\dev\glew-1.10.0_win32\include" /I"C:\dev\glm-0.9.5.3\glm" /IC:\dev\bullet3\src /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BspLoader.cpp Camera.cpp main.cpp Mesh.cpp Physics.cpp Shader.cpp ResourceLoader.cpp
+         ResourceLoader.cpp
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\resourceloader.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+         Shader.cpp
+         Physics.cpp
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\physics.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+         Mesh.cpp
+         main.cpp
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\main.cpp(131): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\main.cpp(433): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\main.cpp(436): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Camera.cpp
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         BspLoader.cpp
+     1>c:\users\adnan\documents\working code backups\openglgraphicspad (with 3rd party physics)\openglgraphicspad\bsploader.cpp(23): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\Debug\OpenGLGraphicsPad.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\dev\glew-1.10.0_win32\lib\Release\Win32" /LIBPATH:"C:\dev\freeglut-2.8.1\lib\x86\Debug" /LIBPATH:C:\dev\bullet3\build\lib\Debug glew32.lib glew32s.lib freeglut.lib OpenGL32.lib BulletCollision_Debug.lib BulletDynamics_Debug.lib LinearMath_Debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\Debug\OpenGLGraphicsPad.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\Debug\OpenGLGraphicsPad.lib" /MACHINE:X86 Debug\BspLoader.obj
+         Debug\Camera.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\Physics.obj
+         Debug\Shader.obj
+         Debug\ResourceLoader.obj
+         OpenGLGraphicsPad.vcxproj -> C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\Debug\OpenGLGraphicsPad.exe
+     1>Done Building Project "C:\Users\Adnan\Documents\Working Code Backups\OpenGLGraphicsPad (With 3rd Party Physics)\OpenGLGraphicsPad\OpenGLGraphicsPad.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.15
